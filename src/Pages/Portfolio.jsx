@@ -21,7 +21,7 @@ function Portfolio() {
   ];
 
   return (
-    <div className="bg-white flex flex-col py-16 font-sans items-center justify-center text-gray-800 px-10">
+    <div className="bg-white flex flex-col py-16 font-sans items-center justify-center text-gray-600 px-10">
       <h1 className="text-3xl font-bold z-10">Projects</h1>
       <p className="py-2 text-gray-600">You'll love our work. Check it out!</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-10">

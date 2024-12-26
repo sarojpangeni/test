@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // import './App.css'
-import Navbar from './component/navbar'
+import Navbar from './component/Nav_bar'
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './Pages/About'
 import Blog from './Pages/Blog'
@@ -9,16 +9,18 @@ import Services from './Pages/Services'
 import Our_Team from './Pages/Our_Team'
 import Portfolio from './Pages/Portfolio'
 import Contact_Us from './Pages/Contact_Us'
-import layout from './HOC/layout'
+import Home from './Pages/Home'
+import Fontpage from './Pages/Fontpage'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <> 
     <Router >
       <Navbar />
+      <Fontpage/>
       <Routes>
         <Route path='/about' element={<About/>} />
         <Route path='/portfolio' element={<Portfolio />} />
